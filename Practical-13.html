@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,71 +8,89 @@
     <title>Practical-13</title>
     <script src="https://kit.fontawesome.com/8e517d223f.js" crossorigin="anonymous"></script>
     <style>
-        *{
+        * {
             padding: 0;
-            margin:0;
+            margin: 0;
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
         }
-        body{
+
+        body {
             min-width: 100%;
             background-color: lightgrey;
         }
-        tbody tr:nth-child(odd), tfoot tr:nth-child(odd){
+
+        tbody tr:nth-child(odd),
+        tfoot tr:nth-child(odd) {
             background-color: #edf3e2;
         }
-        tfoot tr{
-            line-height:70px;
+
+        tfoot tr {
+            line-height: 70px;
         }
-        a{
+
+        a {
             text-decoration: none;
             background-color: #64548f;
-            padding:10px 15px;
-            color:white;
+            padding: 15px 25px;
+            color: white;
             border-radius: 10px;
+            font-size: 18px;
+            vertical-align: middle;
         }
-        .wrapper{
-            width:600px;
+
+        .wrapper {
+            width: 600px;
             background-color: #fff;
-            padding:10px;
-            margin:20px auto;
+            padding: 10px;
+            margin: 20px auto;
         }
-        .custom-table{
-            width:100%;
-            margin:0 auto;
+
+        .custom-table {
+            width: 100%;
+            margin: 0 auto;
             border-collapse: collapse;
         }
-        .basic{
+
+        .basic {
             background-color: #c1dcb7;
         }
-        .plus{
+
+        .plus {
             background-color: #bad6c8;
         }
-        .deluxe{
+
+        .deluxe {
             background-color: #bbd3dc;
         }
-        .pro{
+
+        .pro {
             background-color: #d5e4bc;
         }
-        .custom-table td, .custom-table th{
-            width:150px;
-            padding:8px 5px;
+
+        .custom-table td,
+        .custom-table th {
+            width: 150px;
+            padding: 8px 5px;
             text-align: center;
             border-left: 2px solid white;
             border-right: 2px solid white;
         }
-        .custom-table th{
-            height:70px;
-            color:#64548f;
-            font-size:30px;
+
+        .custom-table th {
+            height: 70px;
+            color: #64548f;
+            font-size: 30px;
         }
-        i{
-            font-size:30px;
-            color:#64548f;
+
+        i {
+            font-size: 30px;
+            color: #64548f;
             margin-right: 10px;
         }
     </style>
 </head>
+
 <body>
     <div class="wrapper">
         <h2>Select Your Plan</h2>
@@ -119,37 +138,37 @@
                         <td>250 MB</td>
                         <td>1 GB</td>
                         <td>5 GB</td>
-                     </tr>
-                     <tr>
-                         <td>included</td>
-                         <td>included</td>
-                         <td>included</td>
-                         <td>included</td>
-                     </tr>
-                     <tr>
-                         <td><img src="./images/tick.png"></td>
-                         <td><img src="./images/tick.png"></td>
-                         <td><img src="./images/tick.png"></td>
-                         <td><img src="./images/tick.png"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/cross.png"></td>
-                            <td><img src="./images/tick.png"></td>
-                        </tr>
+                    </tr>
+                    <tr>
+                        <td>included</td>
+                        <td>included</td>
+                        <td>included</td>
+                        <td>included</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/cross.png"></td>
+                        <td><img src="./images/tick.png"></td>
+                    </tr>
                 </tbody>
                 <tfoot>
                     <tr>
@@ -160,8 +179,10 @@
                     </tr>
                 </tfoot>
 
-            </div>        
+
             </table>
+        </div>
     </div>
 </body>
+
 </html>
